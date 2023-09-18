@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+
+header{
+ background-color: #333;
+ padding: 20px;
+ color: #fff;  
+}
+.logo{
+    font-size: 24;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*Navigation*/
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+.nav-links li {
+    margin-left: 20px;
+}
+.nav-links a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/*Hero Section*/
+#hero{
+  background-image: url("images/hero.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.hero-text{
+    text-align: center;
+}
+.hero-text h1{
+    font-size: 40px;
+    color: beige;
+    margin-bottom: 20px;
+}
+.hero-text p{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in;
+}
+.btn:hover {
+    background-color:whitesmoke;
+    color: #333;
+}
+
+/*About Section*/
+#about{
+    background-image: url("images/about.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    opacity: 80;
+}
+.about-text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.about-text h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:darkslategray;
+  }
+.about-text p {
+    font-size: 18px;
+    color:darkslategrey;
+}
+
+/*Menu Section */
+#menu {
+    background-color:whitesmoke;
+    padding: 80px 0;
+  }
+.menu-text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.menu-text h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: darkslategray;
+} 
+.menu-text p {
+    font-size: 18px;
+    color: darkslategray;
+}
+.menu-items{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.menu-item {
+    background-color: #fff;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+} 
+.menu-item img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.menu-item h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: darkslategray;
+    margin-bottom: 10px;
+    
+}
+.menu-item p{
+    color: #777;
+}
+.menu-item:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    transform: translateX(+5px);
+}
+
+/*Contact Us*/
+#contact{
+    background-image: url("images/contact.avif");
+    padding: 80px 0;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #eee;
+}
+.contact-text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact-text h2{
+    color: black;
+    text-align: center;
+    font: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.contact-text p{
+    color: black;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.contact-form{
+    text-align: center;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.contact-form input,textarea{
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.contact-form button{
+    box-sizing: border-box;
+    width: 300px;
+    padding: 10px;
+    background-color:#ffbd39;;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+.btn:hover{
+    background-color:#ffb30f;
+}
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}

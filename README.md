@@ -2,4 +2,4 @@
 <h2> this is pull</h2>
 
 <code>git add. </code>
-<h3> changes in faizan changes</h3>
+<h3> changes in faizan changed</h3>
