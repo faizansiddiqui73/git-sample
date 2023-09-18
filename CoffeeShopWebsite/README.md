@@ -1,0 +1,1 @@
+<h2>This is the Coffee shop website Sample</h2>
